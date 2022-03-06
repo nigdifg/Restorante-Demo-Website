@@ -1,103 +1,206 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <!-- Required meta tags always come first -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <title>Ristorante Con Fusion</title>
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="stylesheet" href="style.css">
+    <title>development-learning!</title>
 </head>
-
 <body>
-
-    <header>
+    <nav class="navbar navbar-dark navbar-expand-sm  fixed-top">
+        <div class="container">     
+              <button class="navbar-toggler type="button" data-toggle="collapse" data-target="#Navbar">
+<span class="navbar-toggler-icon">
+</span>
+      </button>
+            <a class="navbar-brand mr-auto" href="#"><img src="logo.png" height="30" width="41" ></a>
+            <div class="collapse navbar" id="Navbar">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active"> <a class="nav-link" href="index.html"><span class="fa fa-home fa-lg"></span> Home</a></li>
+                <li class="nav-item "> <a class="nav-link" href="aboutus.html"><span class="fa fa-info fa-lg"></span> About</a></li>
+                <li class="nav-item"> <a class="nav-link" href="#"><span class="fa fa-list fa-lg"></span> Menu</a></li>
+                <li class="nav-item"> <a class="nav-link" href="contactus.html"><span class="fa fa-address-card fa-lg"></span> Contact</a></li>
+            </ul>
+        </div>
+    </div>
+    </nav>
+    <header class="jumbotron">
         <div>
             <div>
-                <div>
-                    <h1>Ristorante con Fusion</h1>
-                    <p>We take inspiration from the World's best cuisines, and create a unique fusion experience. Our lipsmacking creations will tickle your culinary senses!</p>
-                </div>
+                
+                    <h1 class="jumbotron  text-center text-white ">Hello, iam Anurag</h1>
+                    <p class="col-12 col-sm text-center">Welcome To My World!!</p>
+                    <div class="col-12 col-sm-3 navbar-toggler, navbar-collapse,navbar-expand{-sm|-md|-lg|-xl}">
+                        <a href="#" role="button" data-toggle="modal" data-target="#reserveModal" class="btn btn-warning btn-sm btn-block p-2">
+                            <strong>Reserve Table</strong>
+                        </a>
+                    </div>
+                
                 <div>
                 </div>
             </div>
         </div>
     </header>
-
-    <div>
-        <div>
-            <div>
-                <h3>Our Lipsmacking Culinary Creations</h3>
+   
+    <div class="container">
+        <div class="row row-content align-items-center">
+            <div class="col-12 col-sm-4 order-sm-last col-md">
+                <h3 class="text-center">Our Lipsmacking Culinary Creations</h3>
             </div>
-            <div>
-                <h2>Uthappizza</h2>
-                <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+            <div class="col-12 col-sm-4 order-sm-first col-md">
+                <div class="media">
+                <img class="d-flex mr-3 img-thumbnail align-self-center" src="uthappizza.png">
+                <div class="media-body">
+                <h2 class="mt-0" >
+
+                    Uthappizza
+                    <span class="badge badge-danger">HOT</span>
+                    <span class="badge badge-pill badge-secondary">$23.5</span>
+
+                </h2>
+                <p class="d-none d-sm-block">A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
             </div>
         </div>
-
-
-        <div>
-            <div>
-                <h3>This Month's Promotions</h3>
+        </div>
+        </div>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 order-sm-last col-md">
+                <h3 class="text-center" >This Month's Promotions</h3>
             </div>
-            <div>
-                <h2>Weekend Grand Buffet</h2>
-                <p>Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            <div class="col-12 col-sm-4 order-sm-last col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 img-thumbnail d-block img-fluid" src="buffet.png">
+                    <div class="media-body">
+                <h2 class="mt-0">Weekend Grand Buffet
+                    <span class="badge badge-danger">NEW</span>
+                </h2>
+                <p class="d-none d-sm-block">Featuring mouthwatering combinations with a choice of five different salads, six enticing appetizers, six main entrees and five choicest desserts. Free flowing bubbly and soft drinks. All for just $19.99 per person </p>
+            </div>
+                </div>
             </div>
         </div>
+    </div>
+        <div class="container">
+            <div class="row row-content align-items-center">
+                <div class="col-12 col-sm-4 order-sm-last col-md">
 
-        <div>
-            <div>
-                <h3>Meet our Culinary Specialists</h3>
-            </div>
-            <div>
-                <h2>Alberto Somayya</h2>
+                <h3 class="text-cenetr">Meet our Culinary Specialists</h3>
+                </div>
+
+        
+            <div class="col-12 col-sm-4 order-sm-first col-md">
+                <div class="media">
+                    <img class="d-flex mr-3 align-self-center img-thumbnail" src="alberto.png">
+                    <div class="media-body">
+                        <h2>Alberto Somayya</h2>
                 <h4>Executive Chef</h4>
-                <p>Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+                <p class="d-none d-sm-block">Award winning three-star Michelin chef with wide International experience having worked closely with whos-who in the culinary world, he specializes in creating mouthwatering Indo-Italian fusion experiences. </p>
+
+                    </div>
+
+                </div>
+                
             </div>
         </div>
     </div>
 
-    <footer>
-        <div>
-            <div>             
-                <div>
+    
+
+    <div class="card w-50 text-cenetr border-primary mb-3 modal p-3 col-sm-4 " id="reserveModal">
+        <div class="card-body">
+            <h3 class="card-header bg-primary text-white">Reserve Table</h3>
+          <h4 class="card-text">  No. of Guests:</h4><br><br>
+          <div class="form-check">
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline1" name="inline">
+                <label class="custom-control-label" for="defaultInline1">1</label>
+              </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline2" name="inline">
+                <label class="custom-control-label" for="defaultInline2">2</label>
+              </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline3" name="inline">
+                <label class="custom-control-label" for="defaultInline3">3</label>
+              </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline4" name="inline">
+                <label class="custom-control-label" for="defaultInline4">4</label>
+              </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline5" name="inline">
+                <label class="custom-control-label" for="defaultInline5">5</label>
+              </div>
+            <div class="custom-control custom-radio custom-control-inline">
+                <input type="radio" class="custom-control-input" id="defaultInline6" name="inline">
+                <label class="custom-control-label" for="defaultInline6">6</label>
+              </div>
+         <br><br><br>
+              <div class="form-group row col-sm-2">
+                <label for="data-target" class="row-sm-2 col-md-2 col-form-label">Date and Time</label>
+                <div class="col-5 col-md-3">
+                    <input type="date" class="form-control" id="date" placeholder="DATE">
+                </div>
+                <div class="col-7 col-md-7">
+                    <input type="time" class="form-control" id="time" placeholder="TIME">
+                </div>
+
+            </div>
+          </div> 
+          <br><br>
+          <a href="index.html" type="submit" class="btn btn-primary">Reserve</a>
+        </div>
+      </div>
+
+
+    
+
+
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">             
+                <div class="col-5 offset-1 col-sm-2">
                     <h5>Links</h5>
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
+                    <ul class="list-unstyled">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About</a></li>
                         <li><a href="#">Menu</a></li>
-                        <li><a href="#">Contact</a></li>
+                        <li><a href="contactus.html">Contact</a></li>
                     </ul>
                 </div>
-                <div>
+                <div class="col-7 col-sm-5">
                     <h5>Our Address</h5>
                     <address>
 		              121, Clear Water Bay Road<br>
 		              Clear Water Bay, Kowloon<br>
 		              HONG KONG<br>
-		              Tel.: +852 1234 5678<br>
-		              Fax: +852 8765 4321<br>
-		              Email: <a href="mailto:confusion@food.net">confusion@food.net</a>
+                      
+		              <i class="fa fa-phone fa-lg"></i>: +852 1234 5678<br>
+		              <i class="fa fa-fax fa-lg"></i>: +852 8765 4321<br>
+		              <i class="fa fa-envelope fa-lg"></i>: <a href="mailto:confusion@food.net">confusion@food.net</a>
 		           </address>
                 </div>
-                <div>
-                    <div>
-                        <a href="http://google.com/+">Google+</a>
-                        <a href="http://www.facebook.com/profile.php?id=">Facebook</a>
-                        <a href="http://www.linkedin.com/in/">LinkedIn</a>
-                        <a href="http://twitter.com/">Twitter</a>
-                        <a href="http://youtube.com/">YouTube</a>
-                        <a href="mailto:">Mail</a>
+                <div class="col-12 col-sm-4 align-self-center">
+                    <div class="text-center">
+                        <a class="btn btn-social-icon btn-google" href="http://google.com/+"><i class="fa fa-google-plus fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-facebook" href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-linkedin" href="http://www.linkedin.com/in/"><i class="fa fa-linkedin fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter fa-lg"></i></a>
+                        <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube fa-lg"></i></a>
+                        <a  class="btn btn-social-icon " href="mailto:"><i class="fa fa-envelope fa-lg"></i></a>
                     </div>
                 </div>
            </div>
-           <div>             
-                <div>
-                    <p>© Copyright 2018 Ristorante Con Fusion</p>
+           <div class="row justify-content-center">             
+                <div class="col-auto">
+                    <p>© Copyright 2022 Anurag Maurya</p>
                 </div>
            </div>
         </div>
@@ -107,5 +210,4 @@
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
-
 </html>
