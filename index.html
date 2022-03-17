@@ -34,7 +34,10 @@
                     <h1 class="jumbotron  text-center text-white ">Hello, iam Anurag</h1>
                     <p class="col-12 col-sm text-center">Welcome To My World!!</p>
                     <div class="col-12 col-sm-3 navbar-toggler, navbar-collapse,navbar-expand{-sm|-md|-lg|-xl}">
-                        <a href="#" role="button" data-toggle="modal" data-target="#reserveModal" class="btn btn-warning btn-sm btn-block p-2">
+                        <a  role="button" data-target="#reserveModal" class="btn btn-warning btn-sm btn-block p-2"
+                        data-toggle="tooltip" data-html="true"
+                        title="Or call us at <br><strong> 122937 </strong></br>" data-replacement="bottom" href="#reserveModal">
+                           
                             <strong>Reserve Table</strong>
                         </a>
                     </div>
@@ -208,5 +211,10 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
 </body>
 </html>
