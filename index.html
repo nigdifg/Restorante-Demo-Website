@@ -75,21 +75,87 @@
                 
                     <h1 class="jumbotron  text-center text-white ">Hello, iam Anurag</h1>
                     <p class="col-12 col-sm text-center">Welcome To My World!!</p>
-                    <div class="col-12 col-sm-3 navbar-toggler, navbar-collapse,navbar-expand{-sm|-md|-lg|-xl}">
-                        <a  role="button" data-target="#reserveModal" class="btn btn-warning btn-sm btn-block p-2"
-                        data-toggle="tooltip" data-html="true"
-                        title="Or call us at <br><strong> 122937 </strong></br>" data-replacement="bottom" href="#reserveModal">
+                    <span class="navbar-text">
+                        <a role="button" class="btn btn-warning btn-sm btn-block p-1" data-toggle="modal" data-target="#tableinModal">
+                            <strong style="color: black;">Reserve Table</strong>
+                        </a>
+                    </span>
+                </div>
+            </div>
+            </nav>
+        </div>
+    </div>
+</header>
+            <div id="tableinModal" class="modal fade" role="dialog">
+                <div class="modal-dialog modal-lg" role="content">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h4 class="modal-tittle">Reserve Table</h4>
+                            <button type="button" class="close" data-dismiss="modal">
+                                &times;
+                            </button></div>
+                        <div class="modal-body">
+                            <form>
+                                <h4 class="card-text">  No. of Guests:</h4><br>
+                                <div class="form-check">
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline1" name="inline">
+                                      <label class="custom-control-label" for="defaultInline1">1</label>
+                                    </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline2" name="inline">
+                                      <label class="custom-control-label" for="defaultInline2">2</label>
+                                    </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline3" name="inline">
+                                      <label class="custom-control-label" for="defaultInline3">3</label>
+                                    </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline4" name="inline">
+                                      <label class="custom-control-label" for="defaultInline4">4</label>
+                                    </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline5" name="inline">
+                                      <label class="custom-control-label" for="defaultInline5">5</label>
+                                    </div>
+                                  <div class="custom-control custom-radio custom-control-inline">
+                                      <input type="radio" class="custom-control-input" id="defaultInline6" name="inline">
+                                      <label class="custom-control-label" for="defaultInline6">6</label>
+                                    </div>
+                               </div>
+                                <div class="form-row">
+                                <div class="form-group col-sm-4">
+                                <label class="sr-only" for="exampleInputemail3">Enter Email:</label>
+                                <input type="email" class="form-control form-control-sm mr-1" id="exampleInputemail" placeholder="Email">
+                                </div>
+                                    <div class="form-group col-sm-4">
+                                    <label class="sr-only" for="exampleInputPassword3">Enter Password:</label>
+                                    <input type="password" class="form-control form-control-sm mr-1" id="exampleInputPassword" placeholder="password">
+                                </div>
+                                <div class="col-sm-auto">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox">
+                                    <label class="form-check-label">Remember Me</label>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="form-row">
+                                    <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                                    <button type="submit" class="btn btn-primary btn-sm ml-1">Reserve</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                    <!-- <div class="col-12 col-sm-3 navbar-toggler, navbar-collapse,navbar-expand{-sm|-md|-lg|-xl}">
+                        <a  role="button" data-target="#reserveModal" class="btn btn-warning btn-sm btn-block p-2" href="#reserveModal">
                            
                             <strong>Reserve Table</strong>
                         </a>
-                    </div>
+                    </div> -->
                 
-                <div>
-                </div>
-            </div>
-        </div>
-    </header>
-   
     <div class="container">
         <div class="row row-content">
             <div class="col">
@@ -191,10 +257,7 @@
             </div>
         </div>
     </div>
-
-    
-
-    <div class="card w-50 text-cenetr border-primary mb-3 modal p-3 col-sm-4 " id="reserveModal">
+    <div class="card w-50 text-cenetr border-primary mb-3 modal p-3 col-sm-4 " id="tableinModal">
         <div class="card-body">
             <h3 class="card-header bg-primary text-white">Reserve Table</h3>
           <h4 class="card-text">  No. of Guests:</h4><br><br>
@@ -239,12 +302,6 @@
           <a href="index.html" type="submit" class="btn btn-primary">Reserve</a>
         </div>
       </div>
-
-
-    
-
-
-
 
     <footer class="footer">
         <div class="container">
@@ -292,10 +349,10 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <script>
+    <!-- <script>
         $(document).ready(function(){
             $('[data-toggle="tooltip"]').tooltip();
         });
-    </script>
+    </script> -->
 </body>
 </html>
