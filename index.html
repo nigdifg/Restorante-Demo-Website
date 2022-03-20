@@ -198,6 +198,14 @@
                         <span class="carousel-cotrol-next-icon">
                         </span>
                     </a>
+                    <div class="btn-group" id="carouselButton">
+                        <button class="btn btn-danger btn-sm" id="carousel-pause">
+                            <span class="fa fa-pause"></span>
+                        </button>
+                        <button class="btn btn-danger btn-sm" id="carousel-play">
+                            <span class="fa fa-play"></span>
+                        </button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -262,43 +270,6 @@
             </div>
         </div>
     </div>
-    <div class="card w-50 text-cenetr border-primary mb-3 modal p-3 col-sm-4 " id="tableinModal">
-        <div class="card-body">
-            <h3 class="card-header bg-primary text-white">Reserve Table</h3>
-          <h4 class="card-text">  No. of Guests:</h4><br><br>
-          <div class="form-check">
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline1" name="inline">
-                <label class="custom-control-label" for="defaultInline1">1</label>
-              </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline2" name="inline">
-                <label class="custom-control-label" for="defaultInline2">2</label>
-              </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline3" name="inline">
-                <label class="custom-control-label" for="defaultInline3">3</label>
-              </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline4" name="inline">
-                <label class="custom-control-label" for="defaultInline4">4</label>
-              </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline5" name="inline">
-                <label class="custom-control-label" for="defaultInline5">5</label>
-              </div>
-            <div class="custom-control custom-radio custom-control-inline">
-                <input type="radio" class="custom-control-input" id="defaultInline6" name="inline">
-                <label class="custom-control-label" for="defaultInline6">6</label>
-              </div>
-         <br><br><br>
-             
-          </div> 
-          <br><br>
-          <a href="index.html" type="submit" class="btn btn-primary">Reserve</a>
-        </div>
-      </div>
-
     <footer class="footer">
         <div class="container">
             <div class="row">             
@@ -345,10 +316,16 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
-    <!-- <script>
+ <script>
         $(document).ready(function(){
-            $('[data-toggle="tooltip"]').tooltip();
+            $("#mycarousel").carousle( { interval: 2000 } );
+            $("#carousel-pause").click(function(){
+                $("#mycarousel").carousel('pause');
+            });
+            $("#carousel-play").click(function(){
+                $("#mycarousel").carousel('clycle');
+            });
         });
-    </script> -->
+</script> 
 </body>
 </html>
