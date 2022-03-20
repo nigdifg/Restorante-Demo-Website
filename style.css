@@ -38,7 +38,7 @@ body{
     border-bottom: 1px solid black;
 }
 .carousel{
-    background: #512DA8;
+    background: #7c7294;
 }
 .carousel-item{
     height: 300px;
@@ -57,10 +57,10 @@ body{
     z-index: 1;
 }
 .modal-header{
-    background-color: #512DA8;
+    background-color: #5e4499;
 }
 .modal-body{
-    background-color: #9575CD;
+    background-color: #bba2e6;
 }
 .modal-tittle{
     color: aliceblue;

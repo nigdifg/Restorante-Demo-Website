@@ -73,7 +73,7 @@
         <div>
             <div>
                 
-                    <h1 class="jumbotron  text-center text-white ">Hello, iam Anurag</h1>
+                    <h1 class="jumbotron  text-center text-white ">Hello, I am Anurag</h1>
                     <p class="col-12 col-sm text-center">Welcome To My World!!</p>
                     <span class="navbar-text">
                         <a role="button" class="btn btn-warning btn-sm btn-block p-1" data-toggle="modal" data-target="#tableinModal">
@@ -313,24 +313,7 @@
     <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
     <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
     <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
- <script>
-        // $(document).ready(function(){
-            $("#mycarousel").carousel({ interval: 2000 });
-            $("#carouselButton").click(function(){
-                if($('#carouselButton').children("span").hasClass('fa-pause')){  
-                $("#mycarousel").carousel('pause');
-                $('#carouselButton').children("span").removeClass('fa-pause');
-                $('#carouselButton').children("span").addClass('fa-play');
-                }
-                else if ($('#carouselButton').children("span").hasClass('fa-play'))
-                {   
-                   $("#mycarousel").carousel('cycle');
-                   $('#carouselButton').children("span").removeClass('fa-play');
-                   $('#carouselButton').children("span").addClass('fa-pause');
-                   }
-            });
-            
-        // });
+ <script src="scrripts.js">
 </script> 
 </body>
 </html>
