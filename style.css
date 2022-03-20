@@ -56,3 +56,12 @@ body{
     bottom:0px;
     z-index: 1;
 }
+.modal-header{
+    background-color: #512DA8;
+}
+.modal-body{
+    background-color: #9575CD;
+}
+.modal-tittle{
+    color: aliceblue;
+}
