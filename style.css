@@ -65,3 +65,15 @@ body{
 .modal-tittle{
     color: aliceblue;
 }
+.adjust{
+    text-align: center;
+    margin-left: 30px;
+    margin-bottom: 70px;
+}
+.image-resize{
+    margin-right: 40px;
+    margin-left: 20px;
+    height: 20%;
+    margin-bottom: 50px;
+    width: 10%;
+}
